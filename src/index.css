@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+      @apply bg-[#FAFAFA]
+    }
+  }
+  @layer base {
+    body.dark {
+      @apply bg-[#202c37]
+    }
+  }
